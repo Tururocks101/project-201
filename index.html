@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <title>Akan Names</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <img src="beach.jpeg" alt="ghana">
+  <div id="heading"> 
+    <h1>Enjoy Your Akan Names</h1>
+    <h2 id="get">Get Your Akan Name Fast And Reliable</h2>
+  </div>
+  <div class="overlay">
+      <div class="container">
+        <h2>Fill Out Your Details Here</h2>
+        <form name="myForm" class="form" onsubmit="validate();">
+          <div class="form-group">
+            <label for="number">Year of Birth:</label>
+            <input type="number" class="form-control" id="year" placeholder="Year of Birth Eg: 2021 if born in 2021" name="year">
+          </div>
+          <div class="form-group">
+            <label for="month">Month of Birth:</label>
+            <input type="number" class="form-control" id="month" placeholder="Month of Birth" name="month">
+          </div>
+          <div class="form-group">
+            <label for="date">Date of Birth:</label>
+            <input type="number" class="form-control" id="date" placeholder="Date of Birth eg 10th December name="date">
+          </div>
+          <div class="form-group">
+            <label for="month">Gender</label><br>
+            <div class="form-check-inline">
+              <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="gender" id="male">&nbsp; Male 
+              </label>
+            </div>
+            <div class="form-check-inline">
+              <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="gender" id="female">&nbsp; Female 
+              </label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary" onclick="findName();">Get Name</button>
+          <br>
+        </form>
+        <p id="results"> </p>
+      </div>
+  </div>
+  <div class="card-deck">
+    <div class="card ">
+      <div class="card-body text-center">
+        <p class="card-text">Through the Ghanian culture we derive the Akhan names.To get your Akhan name fill out the form above.</p>
+      </div>
+    </div>
+    <div class="card ">
+        <div class="card-body text-center">
+          <p class="card-text">The names are given according to the day born and the gender if the child.<br>
+          </p>
+        </div>
+      </div>
+  </div>
+  <!----footer start---->
+    <footer>
+        <p>For more information email;</p>
+        <p>Truphosa Ambiyo</p>
+        <div class="social">
+
+        </div>
+        <p class="end">Copyright By Truphosa Ambiyo</p>
+    </footer>
+    </div>
+  </footer>
+<script src="javascript/script.js"></script>
+</body>
+</html>
